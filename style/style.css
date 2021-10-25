@@ -27,7 +27,6 @@
 /*}*/
 
 
-
 /*!* Index *!*/
 /*.telegramBtnHover:hover{*/
 /*    background-color: #55a3d1;*/
@@ -46,37 +45,70 @@
 /*        padding-left: 100px;*/
 /*    }*/
 /*}*/
-*{
+
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../Montserrat/Montserrat-Regular.ttf");
+}
+
+*, *::before, *::after {
+    font-family: "Montserrat-Regular";
+    font-weight: 900;
+    font-size: 16px;
+}
+
+
+html {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    background-color: #ffffff;
+    font-family:"Montserrat-Regular";
+    font-size: 16px;
+}
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.video{
-    position: relative;
-}
-.video::after{
-    position: absolute;
-    content: "";
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    right: 0;
-    z-index: 1;
-    bottom: 0;
-    background-color: rgba(0, 0, 0,0.5);
-}
-.colHover{
 
+
+/*.video {*/
+/*    position: relative;*/
+/*}*/
+
+/*.video::after {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    display: block;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    right: 0;*/
+/*    z-index: 1;*/
+/*    bottom: 0;*/
+/*    background-color: rgba(0, 0, 0, 0.5);*/
+/*}*/
+
+
+
+.colHover {
     transition: 0.8s linear;
     position: relative;
     background-color: #ffffff;
     height: 400px;
     perspective-origin: center;
     transform-style: preserve-3d;
-    transform:perspective(1200px);
+    transform: perspective(1200px);
 }
-.colHover h2{
+
+.colHover h2 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -85,7 +117,13 @@
     transform: translateZ(-40px) rotateY(180deg);
     background-color: transparent;
 }
-.colHover h1{
+.mr-card:hover .card0{
+opacity: 1;
+}
+.card0{
+    opacity: 0;
+}
+.colHover h1 {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -94,6 +132,382 @@
     transform: translateZ(40px);
     background-color: transparent;
 }
+
 .colHover:hover {
-    transform:perspective(1200px) rotateY(180deg);
+    transform: perspective(1200px) rotateY(180deg);
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 37, 63, 0.3);
+    border-radius: 10px;
+
+    transition: 0.7s;
+    opacity: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+}
+
+.card-body-overflow:hover .overlay {
+    opacity: 1;
+}
+
+.card {
+    box-shadow: 5px 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+/*Default*/
+.cardFooterHover:hover {
+    background-color: #979aa1 !important;
+    color: #ffffff;
+}
+
+
+.my-card {
+    position: relative;
+    z-index: 20;
+    border-radius: 15px;
+    outline: none;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.my-card .card-header {
+    border: none;
+    border-radius: 15px;
+}
+
+.my-card:hover::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: -15px;
+    bottom: -15px;
+    z-index: -10;
+    right: -15px;
+    left: -15px;
+    border-radius: 15px;
+    border: none;
+    background-image: linear-gradient(to bottom, yellow, orangered);
+}
+
+.my-card::after {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    bottom: 0;
+    z-index: -5;
+    right: 0;
+    outline: none;
+    left: 0;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+
+
+.my-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 37, 63, 0.3);
+    transition: 0.7s;
+    transform: translateY(100%);
+    border-radius: 10px;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+}
+
+.box-overflow {
+    overflow: hidden;
+}
+
+.box-overflow:hover .my-overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.big-box {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.eye-box {
+    color: #8dc0ba;
+    font-size: 40px;
+}
+
+.design {
+    background-image: linear-gradient(to bottom, yellow, orangered);
+}
+
+.hello {
+    display: block;
+    height: 60vh;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.hello::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.box-1 {
+    /*background-image: url('../img/group.jpg')!important;*/
+    transform: skewX(20deg);
+    height: 100%;
+    float: left;
+    width: 53%;
+    padding-left: 140px;
+    margin-left: -100px;
+    border-radius: 40px;
+    background-image: linear-gradient(to bottom, yellow, orangered);
+
+}
+
+.mini-box {
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+@media only screen and (min-width: 992px) {
+    .tel-number a {
+        margin-left: 120px;
+    }
+}
+
+
+@media only screen and (max-width: 812px) {
+    .offset-lg-5 .position-absolute h2 {
+        padding-left: 300px;
+        margin-top: 100px;
+        z-index: 3343;
+        color: black;
+    }
+    .box-1 {
+        /*background-image: url('../img/group.jpg');*/
+        transform: skewX(20deg);
+        height: 100%;
+        float: left;
+        width: 82%;
+        padding-left: 80px;
+        margin-left: -110px;
+        border-radius: 40px;
+        background-color: #d8d8d8;
+    }
+
+     .fa-angle-right {
+      margin-top: 3px;
+         margin-left: 2px;
+    }
+
+    .mini-box {
+        margin-left: 33px;
+        margin-right: 60px;
+
+    }
+
+    .mini-box img {
+        width: 40%;
+        margin-top: -10px;
+    }
+}
+
+.box-2 {
+    margin-left: -40px;
+    transform: skewX(20deg);
+    height: 100%;
+    float: right;
+    width: 60%;
+    background-image: linear-gradient(to bottom, yellow, orangered);
+    /*url("../img/group.jpg")*/
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    margin-right: -100px;
+
+}
+
+.but {
+    height: 100%;
+}
+
+@media only screen and (max-width: 812px) {
+    body {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .navbar img {
+        width: 19%;
+    }
+
+    .hello {
+        height: 1vh;
+    }
+    .box-2 {
+        margin-left: -80px;
+        transform: skewX(20deg);
+        height: 100%;
+        float: right;
+        width: 95%;
+        background-image: linear-gradient(to bottom, yellow, red);
+        /*url("../img/group.jpg")*/
+        background-repeat: no-repeat;
+        border-radius: 40px;
+        margin-right: -170px;
+    }
+
+    button {
+        transform: translateX(80px)
+    }
+    .but button {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.box-2 ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 25px;
+
+}
+
+
+
+
+
+.box-2 ul li {
+    padding-left: 15px;
+    transform: skewX(-20deg);
+}
+
+.box-1 img {
+    transform: skewX(-20deg);
+    margin-left: 50px;
+}
+
+.box-3 .img {
+    height: 300px;
+    width: 300px;
+    transform: rotateZ(45deg);
+    border: 1px solid red;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.totopbtn{
+    position: fixed;
+    border: 2px solid #000000;
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    bottom: 20px;
+    right: 100px;
+}
+
+
+
+.bizx {
+    font-family: Algerian,sans-serif;
+}
+
+.borderbb {
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.buttonBtnHover {
+    border-radius: 10px;
+    background-color: #12173f;
+}
+
+@media only screen and (max-width: 812px) {
+    .buttonBtnHover {
+        margin-left: -150px;
+    }
+    .clnt {
+        margin-left: 3px;
+    }
+}
+
+.buttonBtnHover:hover{
+    background-color: #4A5761;
+    color: #ffffff;
+}
+
+.cursive {
+    font-family: cursive,sans-serif;
+}
+
+.line {
+    margin-top: -10px;
+    width: 200px;
+    height: 3px;
+    display: block;
+    background-color: black;
+    margin-left: 28%;
+}
+.text {
+
+    margin-top: 13%;
+    margin-left: 13%;
+
+}
+
+.text h1 {
+    font-size: 60px;
+}
+.collapse  a {
+    font-weight: 900;
+}
+
+.mrvlcard {
+    transform: skewX(-3deg);
+    border-radius: 18px;
+}
+
+@media only screen and (max-width: 812px) {
+    .mrvlcard .fa-phone {
+        margin-left: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 812px) {
+   .sayt2 img {
+        height: 180px;
+    }
+    .text h1{
+        margin-top: 40px;
+        margin-left: 22px;
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+/*.box-3 img {*/
+/*    transform: rotateZ(-45deg);*/
+/*}*/
+
+
+
+

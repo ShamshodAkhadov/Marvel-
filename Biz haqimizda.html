@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow: hidden; overflow-y: auto">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style/font-awesome.css">
+    <link rel="stylesheet" href="style/font-awesome.css.map">
+    <link rel="stylesheet" href="style/font-awesome.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body style="width: 100%; overflow-x: hidden">
+
+<!--<header class="hello container-fluid">-->
+<!--&lt;!&ndash;    <div class="box-1">&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <div class="mini-box">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;&lt;!&ndash;            <img src="img/logo%20marvel.svg" width="20%" alt="">&ndash;&gt;&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+<!--&lt;!&ndash;    <div class="box-2">&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <nav style="transform: skewX(-20deg);" class="navbar navbar-expand-lg navbar-light bg-transparent">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                <span class="navbar-toggler-icon "></span>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            </button>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            <div class="collapse navbar-collapse" id="navbarNavDropdown">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                <ul class="navbar-nav ">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    <li class="nav-item active">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        <a style="transform: skewX(20deg);" class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    <li class="nav-item">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        <a style="transform: skewX(20deg);" class="nav-link" href="#">Features</a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    <li class="nav-item">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        <a style="transform: skewX(20deg);" class="nav-link" href="#">Pricing</a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    <li class="nav-item dropdown">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        <a style="transform: skewX(20deg);" class="nav-link dropdown-toggle" href="#"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                           id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                           aria-expanded="false">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            Dropdown link&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        </a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        <div style="transform: skewX(20deg);" class="dropdown-menu text-center "&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                             aria-labelledby="navbarDropdownMenuLink">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <a class="dropdown-item px-0" href="#">Action</a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <a class="dropdown-item px-0" href="#">Another action</a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                            <a class="dropdown-item px-0" href="#">Something else here</a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    <li class="nav-item">&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                        <a style="transform: skewX(20deg);" class="nav-link" href="#"><i&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                                style="transform: rotate(90deg)" class="fa fa-phone mr-2"></i>88 600 88 11</a>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                    </li>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;                </ul>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            </div>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        </nav>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    </div>&ndash;&gt;-->
+
+<!--</header>-->
+<div class="container-fluid px-0 sayt2">
+    <img src="img/images/navbarImg.jpg" alt="" width="100%" height="100%">
+</div>
+
+
+<navbar>
+    <div style="z-index: 1; top:0;left: 0;" class="container-fluid px-0 mx-0 pl-5 bg-transparent position-absolute">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container">
+
+                <div class="d-flex">
+                    <img src="img/logo%20marvel.svg" width="40%" alt="">
+
+                    <button style="margin-left: 90px;height: 50px; width: 60px" class="navbar-toggler mt-4"
+                            type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+
+                <div class="collapse navbar-collapse pl-5" id="navbarSupportedContent">
+
+
+                    <ul style="z-index: 10000" class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link text-dark" href="index.html">Menu<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="OurWork.html">Ishlarimiz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="News.html">Yangiliklar</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="service.html">Servis</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="Biz%20haqimizda.html">Biz haqimizda</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="contact.html">Kontakt</a>
+                        </li>
+
+
+                        <li  class="nav-item tel-number mt-2">
+                            <a  href="tel:+99888 600 88 11"> <span style="border-radius: 10px" class="text-dark bg-white py-1 px-2"><i class="fa fa-phone text-dark mr-2" style="transform: rotate(90deg)"></i>+99888 600 88 11</span></a>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </nav>
+    </div>
+</navbar>
+
+<section>
+    <div class="container-fluid px-0 my-3">
+        <div class="text-center">
+            <h1 class="font-weight-bold py-5">
+                Biz haqimizda
+            </h1>
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda atque cum
+                        cupiditate ducimus esse excepturi facere facilis id illum iste iusto labore maiores, minus
+                        molestiae molestias natus nemo nostrum obcaecati pariatur placeat praesentium provident quas
+                        quasi, quia quod ratione repellat saepe sapiente similique sint sunt tenetur ut! Quis,
+                        temporibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda atque cum
+                        cupiditate ducimus esse excepturi facere facilis id illum iste iusto labore maiores, minus
+                        molestiae molestias natus nemo nostrum obcaecati pariatur placeat praesentium provident quas
+                        quasi, quia quod ratione repellat saepe sapiente similique sint sunt tenetur ut! Quis,
+                        temporibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda atque cum
+                        cupiditate ducimus esse excepturi facere facilis id illum iste iusto labore maiores, minus
+                        molestiae molestias natus nemo nostrum obcaecati pariatur placeat praesentium provident quas
+                        quasi, quia quod ratione repellat saepe sapiente similique sint sunt tenetur ut! Quis,
+                        temporibus.</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+<div class="container-fluid px-0">
+    <div class="container">
+        <div class="text-center">
+            <h1 class="font-weight-bold my-3">Bizning sertifikatlar</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 p-5">
+                <img src="img/images/sertifikat.png" width="100%" alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 p-5">
+                <img src="img/images/sertifikat.png" width="100%" alt="">
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 p-5">
+                <img src="img/images/sertifikat.png" width="100%" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<div class="container-fluid px-0 my-3">
+    <div class="container my-3">
+        <div class="text-center">
+            <h2 class="font-weight-bold my-5">Bizning <strong class="text-danger h2 font-weight-bold">hamkorlarimiz</strong></h2>
+        </div>
+        <div class="row my-3">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-3">
+                <div style="width: 100%;height: 100%;" class="box px-3">
+                    <img src="img/clients/medclass.svg" width="100%" alt="">
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-3">
+                <div style="width: 100%;height: 100%;" class="box px-3">
+                    <img src="img/clients/gf.svg" width="100%" alt="">
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-3">
+                <div style="width: 100%;height: 100%;" class="box px-3">
+                    <img src="img/clients/logo.svg" width="100%" alt="">
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-3">
+                <div style="width: 100%;height: 100%;" class="box px-3">
+                    <img src="img/clients/monand.svg" width="100%" alt="">
+                </div>
+            </div>
+
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-3">
+                <div style="width: 100%;height: 100%;" class="box px-3">
+                    <img src="img/clients/medclass.svg" width="100%" alt="">
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-3">
+                <div style="width: 100%;height: 100%;" class="box px-3">
+                    <img src="img/clients/gf.svg" width="100%" alt="">
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-3">
+                <div style="width: 100%;height: 100%;" class="box px-3">
+                    <img src="img/clients/logo.svg" width="100%" alt="">
+                </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-3">
+                <div style="width: 100%;height: 100%;" class="box px-3">
+                    <img src="img/clients/monand.svg" width="100%" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<button style="height: auto;width: 80px" id="totop" class="totopbtn py-3" onclick="totop()"><span><i class="fas fa-caret-up"></i></span><br>top</button>
+
+
+<footer>
+    <div style="background-color: #d8d8d8" class="container-fluid px-0 mx-0 mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 py-3 bg-transparent">
+                    <img class="ml-3" src="img/logo%20marvel.svg" width="40%" alt="">
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 py-3">
+                    <p class="text-white h6"><a class="text-white " style="text-decoration: none"
+                                                href="index.html">Menu</a></p>
+                    <p class="text-white h6"><a class="text-white " style="text-decoration: none" href="OurWork.html">Ishlarimiz</a>
+                    </p>
+                    <p class="text-white h6"><a class="text-white " style="text-decoration: none" href="service.html">Servis</a>
+                    </p>
+                    <p class="text-white h6"><a class="text-white " style="text-decoration: none" href="News.html">Yangiliklar</a>
+                    </p>
+                    <p class="text-white h6"><a class="text-white " style="text-decoration: none"
+                                                href="Biz%20haqimizda.html">Biz haqimizda</a></p>
+                    <p class="text-white h6"><a class="text-white " style="text-decoration: none" href="contact.html">Kontakt</a>
+                    </p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 py-3">
+                    <p class="text-white h6">Sayt yaratish</p>
+                    <p class="text-white h6">Internetda reklama</p>
+                    <p class="text-white h6">Web-Dizayn</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 py-3">
+                    <h5 class=" text-white">Ijtimoiy tarmoqlar</h5>
+                    <a href="https://t.me/Shamshod_Ismatulloyevich"><img class="pt-3" src="img/icons/telegram%20(2).png"
+                                                                         alt=""></a>
+                    <img class="pt-3 pl-2" src="img/icons/facebook%20(2).png" alt="">
+                    <img class="pt-3 pl-2" src="img/icons/instagram%20(1).png" alt="">
+                    <img class="pt-3 pl-2" src="img/icons/twitter%20(1).png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<footer class="container-fluid" style="background-color: #0f6674;">
+    <div class="container">
+        <div class="row pb-1 pt-1">
+            <div class="col-12 col-sm-12 col-md-5 col-lg-6 col-xl-6 pl-0 text-white text-center text-sm-center text-md-left text-lg-left text-xl-left">
+                <small>&copy; 2021 Barcha huquqlar himoyalangan.</small></div>
+            <div class="col-12 col-sm-12 col-md-7 col-lg-6 col-xl-6 pr-0 text-white text-center text-sm-center text-md-right text-lg-right text-xl-right">
+                <small>Sayt innovatsion ishlanmalar studiyasida ishlab chiqilgan <a href="#!" class="text-white">
+                    MARVEL.UZ</a></small>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script>
+    function totop() {
+        window.scrollTo({
+            top:0,
+            behavior:"smooth"
+        })
+    }
+    const btn = document.getElementById('totop')
+    window.onscroll = ()=>{
+        if(window.pageYOffset>window.innerHeight){
+            btn.style.display = "block"
+        }else{
+            btn.style.display = "none"
+        }
+    }
+</script>
+
+<script src="js/jquery3.5.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/fontaweasome.js"></script>
+
+</body>
+</html>
+
+
+
+

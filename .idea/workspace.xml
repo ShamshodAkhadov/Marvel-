@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2de62eae-8e80-46ca-a739-a9830bc00620" name="Default Changelist" comment="" />
+    <list default="true" id="2de62eae-8e80-46ca-a739-a9830bc00620" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Biz haqimizda.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Montserrat/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/News.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/bgenergo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/gf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/logo-shumoff-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/medclass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/monand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/shum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/clients/shumoff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/facebook (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/instagram (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/telegram (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/twitter (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/visibility (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/visibility.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icons/web-development (1)128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/images/iphone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/images/stone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OurWork.html" beforeDir="false" afterPath="$PROJECT_DIR$/OurWork.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,18 +67,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wX3414d5LgROLJRML4aWqdwsv7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Yakkasaroy_Saylov/Saylov Yakkasaroy/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exams" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Practice\Marvel Creative\video" />
       <recent name="D:\Practice\Marvel Creative\img\images" />
       <recent name="D:\Practice\Marvel Creative" />
+      <recent name="D:\Practice\Marvel Creative\img\icons" />
+      <recent name="D:\Practice\Marvel Creative\img\clients" />
+      <recent name="D:\Practice\Marvel Creative\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -58,7 +110,25 @@
       <workItem from="1628590913271" duration="6763000" />
       <workItem from="1628658421158" duration="21648000" />
       <workItem from="1628742916358" duration="15516000" />
-      <workItem from="1628830542724" duration="11405000" />
+      <workItem from="1628830542724" duration="12805000" />
+      <workItem from="1628916079835" duration="18645000" />
+      <workItem from="1629088913265" duration="23638000" />
+      <workItem from="1629174742641" duration="17486000" />
+      <workItem from="1629261340674" duration="8498000" />
+      <workItem from="1629434283625" duration="20483000" />
+      <workItem from="1629520291954" duration="18029000" />
+      <workItem from="1629694840512" duration="23385000" />
+      <workItem from="1629778193487" duration="18441000" />
+      <workItem from="1629866187661" duration="3202000" />
+      <workItem from="1631525301308" duration="9330000" />
+      <workItem from="1631601172338" duration="15921000" />
+      <workItem from="1631682187647" duration="6010000" />
+      <workItem from="1631852372137" duration="33683000" />
+      <workItem from="1631946553895" duration="14357000" />
+      <workItem from="1632132149386" duration="4958000" />
+      <workItem from="1632206845839" duration="9536000" />
+      <workItem from="1632286752773" duration="12750000" />
+      <workItem from="1633598180322" duration="469000" />
     </task>
     <servers />
   </component>
@@ -70,7 +140,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
